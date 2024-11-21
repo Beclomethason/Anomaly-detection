@@ -41,11 +41,8 @@ Prerequisites
 Python 3.x (tested with Python 3.10+)
 Minimal external libraries (see requirements.txt).
 ## Install Dependencies
-Run the following command to install required libraries:
-
-bash
-Copy code
-## pip install -r requirements.txt
+## Run the following command to install required libraries:
+```pip install -r requirements.txt```
 ## code run 
-python src/main.py --file data/clean_data.csv --column revenue --window_size 50 --threshold 3.0
+   ```python src/main.py --file data/clean_data.csv --column revenue --window_size 50 --threshold 3.0```
 >>>>>>> 328a5b3 (Initial commit)
